@@ -1,3 +1,149 @@
-h1 {
-    color: red;
+p{
+    margin: 0;
+}
+
+.topnav {
+    overflow: hidden;
+    text-align:center; 
+    line-height:72px;
+    height: 72px;
+}
+
+.topnav a {
+    color: white;
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.headerContent {
+    background-image: url("../images/header.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 567px;
+}   
+
+.headerText {
+    color: white;
+    text-align: center;
+    height: 495px;
+}
+#headerTitleText {
+    font-weight: bold;
+    font-size: 80px;
+    margin-top: 172px;
+}
+
+#headerContentText {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.welcomeDiv {
+    background-color: #f2f2f2;
+    padding: 88px;
+}
+
+.welcomeDiv button {
+    width: 155px;
+    height: 54px;
+    color: white;
+    font-size: 16px;
+    background-color: #80ba8e;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.welcomeContent {
+    color: #787878;
+    text-align: center;
+    line-height: 30px;
+}
+
+#welcomeContentTitle {
+   font-size: 42px;
+   color: #6e6e6e;
+}
+
+.welcomeDetailTitle {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+}
+
+.bodyStyle {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.imageContentDiv {
+    background-color: white;
+
+    overflow: hidden;
+}
+
+.imageContentDiv div {
+    padding: 25px;
+    float: left;
+    width: 45%;
+    height: 45%;
+}
+
+.imageContentDiv p {
+    text-align: center;
+}
+.imageConetntTitle {
+    color: #6c6c6c;
+    font-size: 28px;
+    padding-top: 50px;
+}
+
+.imageContentText {
+    color: #a3a3a3;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #787878;
+    margin: 1em 0;
+    padding: 0;
+}
+    
+.largeImageContent {
+    background-image:url("../images/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 300px;
+}
+
+.largeImageContent p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-style:italic;
+}
+
+.ReadMoreButton {
+    align-content: center;
+   
+}
+
+.footer {
+    text-align: center;
+    background-color: #161616;
+}
+
+.footer img {
+    padding-left: 10px;
+    padding-right: 10px;
 }
